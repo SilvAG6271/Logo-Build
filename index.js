@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const {Circle, Triangle, Square} = require("./shape.test.js")
 
 const questions = [
     {
@@ -34,11 +35,24 @@ function createSVGFile(fileName, data) {
         err ? console.log(err) : console.log("Generated logo.svg")
     });
 }
-function init(){
-    inquirer.prompt(questions).then((answers) => {
-        const logoCreated = generateLogo(answers);
-        createSVGFile(fileName, logoCreated);
-    });
+async function init(){
+    await inquirer.prompt(questions).then((answers) => 
+    {
+      let svg;
+      switch(answers.shape){
+        case "Circle":
+            svg = new Circle(answers)
+            break
+        case "Triangle":
+            svg = new Triangle() 
+            break 
+        case "Square":
+            svg = new Square(answers) 
+        break    
+      };
+      return svg;
+    })
+    .then((svg) => createSVGFile(svg))
 }    
 
 init();
