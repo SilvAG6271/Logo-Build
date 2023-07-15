@@ -16,7 +16,7 @@ App to help build a logo in SVG using node.js
 - [Tests](#Tests)
 - [Questions](#Questions)
 
-##Installation
+## Installation
 Please install node.js 
   
 ## Usage 
