@@ -21,7 +21,7 @@ Please install node.js
   
 ## Usage 
 This app will allow the user to answer simple questions to create a simple logo  quickly.
-![media](./Logo-Build\images\ShapeTerminal.png)
+![picture of terminal questions ](./Logo-Build\images\ShapeTerminal.png)
 
 
 
