@@ -1,5 +1,6 @@
 const shapes = require("./shape.js")
 
+//created tests using jest 
 describe("Shape", () => {
     it("should generate a whole SVG", () => {
         const shape = new shapes.Shape({

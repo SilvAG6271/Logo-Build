@@ -1,6 +1,6 @@
 
 
-
+//Shape class that has basic default settings and style for text as well as svg dimensions
 class Shape {
     constructor (args) {
         this.characters = args.characters ? args.characters : "";
@@ -22,7 +22,7 @@ class Shape {
     }
 
 }
-
+//Info for circle
 class Circle extends Shape {
     constructor(args){
         const defaultArgs = {
@@ -33,6 +33,7 @@ class Circle extends Shape {
     this.renderShape =  `<circle cx="150" cy="150" r="100" fill ="${this.shapeColor}"/>`;
     }
 }
+//info for triangle
 class Triangle extends Shape {
     constructor(args){ 
         const defaultArgs = {
@@ -44,6 +45,7 @@ class Triangle extends Shape {
     }
    
 }
+//info for square
 class Square extends Shape {
     constructor(args){
         const defaultArgs = {
@@ -54,5 +56,5 @@ class Square extends Shape {
         this.renderShape = `<rect x="50" y="45" width="200" height="200" fill ="${this.shapeColor}"/>`;
     }
 }
-
+//created export that can be imported and used by Index.js
 module.exports = {Shape, Circle, Triangle, Square}

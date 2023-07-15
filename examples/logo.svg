@@ -5,6 +5,6 @@
         }
         </style>
 
-        <polygon points="110, 80, 70, 200, 500, 100" fill ="black"/>
-        <text x="155" y="165" text-anchor="middle" class="heavy" fill="red">OOP</text>
+        <circle cx="150" cy="150" r="100" fill ="Gold"/>
+        <text x="155" y="165" text-anchor="middle" class="heavy" fill="Silver">OOP</text>
         </svg>
