@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200" style="display:block; margin:250  auto;">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500" height="500" style="display:block; margin:250  auto;">
     <style>
         .heavy {
-            font: bold 100px sans-serif;
+            font: bold 75px sans-serif;
         }
         </style>
 
-        <polygon points="10, 10, 100, 190, 190, 10" fill ="gold"/>
-        <text x="125" y="125" text-anchor="middle" class="heavy" fill="silver">silver</text>
+        <polygon points="110, 80, 70, 200, 500, 100" fill ="black"/>
+        <text x="155" y="165" text-anchor="middle" class="heavy" fill="red">OOP</text>
         </svg>

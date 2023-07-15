@@ -9,15 +9,15 @@ class Shape {
     }
 
     render(){
-        return `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200" style="display:block; margin:250  auto;">
+        return `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500" height="500" style="display:block; margin:250  auto;">
     <style>
         .heavy {
-            font: bold 100px sans-serif;
+            font: bold 75px sans-serif;
         }
         </style>
 
         ${this.renderShape}
-        <text x="125" y="125" text-anchor="middle" class="heavy" fill="${this.textColor}">${this.characters}</text>
+        <text x="155" y="165" text-anchor="middle" class="heavy" fill="${this.textColor}">${this.characters}</text>
         </svg>`
     }
 
@@ -30,7 +30,7 @@ class Circle extends Shape {
             shapeColor : "#808080" 
         }
         super(args);
-    this.renderShape =  `<circle cx="100" cy="100" r="50" fill ="${this.shapeColor}"/>`;
+    this.renderShape =  `<circle cx="150" cy="150" r="100" fill ="${this.shapeColor}"/>`;
     }
 }
 class Triangle extends Shape {
@@ -40,7 +40,7 @@ class Triangle extends Shape {
             shapeColor : "#808080" 
         }
     super(args);
-    this.renderShape = `<polygon points="10, 10, 100, 190, 190, 10" fill ="${this.shapeColor}"/>`;
+    this.renderShape = `<polygon points="110, 80, 70, 200, 500, 100" fill ="${this.shapeColor}"/>`;
     }
    
 }
@@ -51,7 +51,7 @@ class Square extends Shape {
             shapeColor : "#808080" 
         }
         super(args);
-        this.renderShape = `<rect x="50" y="50" width="150" height="150" fill ="${this.shapeColor}"/>`;
+        this.renderShape = `<rect x="50" y="45" width="200" height="200" fill ="${this.shapeColor}"/>`;
     }
 }
 
