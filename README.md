@@ -24,7 +24,7 @@ This app will allow the user to answer simple questions to create a simple logo 
 ![picture of terminal questions and index.js ](media/LogoIndex.png)
 ![picture of jest test for Shape ](media/ShapeTest.png)
 ![picture of Shape.js ](media/Shape.png)
-![](media\LogoBuildUpdated.gif)
+![](media/LogoBuildUpdated.gif)
 
 
 
