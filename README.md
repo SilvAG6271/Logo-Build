@@ -16,12 +16,14 @@ App to help build a logo in SVG using node.js
 - [Tests](#Tests)
 - [Questions](#Questions)
 
-##Installation
+## Installation
 Please install node.js 
   
 ## Usage 
 This app will allow the user to answer simple questions to create a simple logo  quickly.
-![media](./Logo-Build\images\ShapeTerminal.png)
+![picture of terminal questions ](images/ShapeTerminal.png)
+![picture of terminal questions ](images/ShapeTest.png)
+![picture of terminal questions ](images/Shape.png)
 
 
 
